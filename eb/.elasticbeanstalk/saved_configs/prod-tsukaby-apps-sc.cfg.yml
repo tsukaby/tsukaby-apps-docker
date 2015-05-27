@@ -6,7 +6,7 @@ AWSConfigurationTemplateVersion: 1.1.0.0
 EnvironmentTier:
   Name: WebServer
   Type: Standard
-SolutionStack: 64bit Amazon Linux 2015.03 v1.4.0 running Multi-container Docker 1.6.0 (Generic)
+SolutionStack: 64bit Amazon Linux 2015.03 v1.4.1 running Multi-container Docker 1.6.0 (Generic)
 OptionSettings:
   aws:ec2:vpc:
     VPCId: vpc-82c4d8e0
