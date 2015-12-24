@@ -16,7 +16,7 @@ OptionSettings:
     IamInstanceProfile: aws-elasticbeanstalk-ec2-role
     SecurityGroups: sg-4f74e22a
     EC2KeyName: aws
-    InstanceType: m1.medium
+    InstanceType: m3.medium
   aws:elasticbeanstalk:environment:
     EnvironmentType: SingleInstance
   aws:elasticbeanstalk:sns:topics:
