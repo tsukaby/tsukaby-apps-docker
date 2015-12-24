@@ -1,6 +1,13 @@
 {
   "AWSEBDockerrunVersion": 2,
-  "volumes": [],
+  "volumes": [
+    {
+      "name": "supervisord-logs",
+      "host": {
+        "sourcePath": "/var/app/current/supervisord"
+      }
+    }
+  ],
   "containerDefinitions": [
     {
       "name": "anime-lineup",
