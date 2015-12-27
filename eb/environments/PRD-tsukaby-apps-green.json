@@ -1,0 +1,66 @@
+{
+  "ApplicationName": "tsukaby-apps",
+  "EnvironmentName": "PRD-tsukaby-apps-green",
+  "Description": "Application environment.",
+  "CNAMEPrefix": "prd-tsukaby-apps-standby",
+  "Tier": {
+    "Name": "WebServer",
+    "Type": "Standard",
+    "Version": "1.0"
+  },
+  "Tags": [
+    {
+      "Key": "environment-type",
+      "Value": "production"
+    }
+  ],
+  "VersionLabel": "VERSION_LABEL",
+  "SolutionStackName": "64bit Amazon Linux 2015.03 v1.4.3 running Multi-container Docker 1.6.2 (Generic)",
+  "OptionSettings": [
+    {
+      "Namespace": "aws:autoscaling:launchconfiguration",
+      "OptionName": "EC2KeyName",
+      "Value": "aws"
+    },
+    {
+      "Namespace": "aws:autoscaling:launchconfiguration",
+      "OptionName": "IamInstanceProfile",
+      "Value": "arn:aws:iam::985988196667:instance-profile/aws-elasticbeanstalk-ec2-role"
+    },
+    {
+      "Namespace": "aws:autoscaling:launchconfiguration",
+      "OptionName": "InstanceType",
+      "Value": "m3.medium"
+    },
+    {
+      "Namespace": "aws:autoscaling:launchconfiguration",
+      "OptionName": "SecurityGroups",
+      "Value": "sg-4f74e22a"
+    },
+    {
+      "Namespace": "aws:autoscaling:launchconfiguration",
+      "OptionName": "RootVolumeType",
+      "Value": "standard"
+    },
+    {
+      "Namespace": "aws:ec2:vpc",
+      "OptionName": "VPCId",
+      "Value": "vpc-82c4d8e0"
+    },
+    {
+      "Namespace": "aws:ec2:vpc",
+      "OptionName": "Subnets",
+      "Value": "subnet-57b9b823"
+    },
+    {
+      "Namespace": "aws:ec2:vpc",
+      "OptionName": "AssociatePublicIpAddress",
+      "Value": "true"
+    },
+    {
+      "Namespace": "aws:elasticbeanstalk:environment",
+      "OptionName": "EnvironmentType",
+      "Value": "SingleInstance"
+    }
+  ]
+}
