@@ -43,6 +43,11 @@
       "Value": "standard"
     },
     {
+      "Namespace": "aws:autoscaling:launchconfiguration",
+      "OptionName": "RootVolumeSize",
+      "Value": "20"
+    },
+    {
       "Namespace": "aws:ec2:vpc",
       "OptionName": "VPCId",
       "Value": "vpc-82c4d8e0"
