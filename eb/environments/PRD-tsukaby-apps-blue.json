@@ -14,7 +14,7 @@
       "Value": "production"
     }
   ],
-  "VersionLabel": "VERSION_LABEL",
+  "VersionLabel": "VERSION_LABEL_PLACEHOLDER",
   "SolutionStackName": "64bit Amazon Linux 2015.03 v1.4.3 running Multi-container Docker 1.6.2 (Generic)",
   "OptionSettings": [
     {
