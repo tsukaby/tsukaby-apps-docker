@@ -13,13 +13,13 @@
       "name": "anime-lineup",
       "image": "quay.io/tsukaby/anime-lineup",
       "essential": true,
-      "memory": 512
+      "memory": 1024
     },
     {
       "name": "c-antenna",
       "image": "quay.io/tsukaby/c-antenna",
       "essential": true,
-      "memory": 3072,
+      "memory": 6144,
       "mountPoints": [
         {
           "sourceVolume": "supervisord-logs",

@@ -30,7 +30,7 @@
     {
       "Namespace": "aws:autoscaling:launchconfiguration",
       "OptionName": "InstanceType",
-      "Value": "m3.medium"
+      "Value": "m3.large"
     },
     {
       "Namespace": "aws:autoscaling:launchconfiguration",
