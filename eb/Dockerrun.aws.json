@@ -19,7 +19,7 @@
       "name": "c-antenna",
       "image": "quay.io/tsukaby/c-antenna",
       "essential": true,
-      "memory": 6144,
+      "memory": 2048,
       "mountPoints": [
         {
           "sourceVolume": "supervisord-logs",
