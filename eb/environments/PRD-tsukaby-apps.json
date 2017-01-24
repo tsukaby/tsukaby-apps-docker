@@ -15,7 +15,7 @@
     }
   ],
   "VersionLabel": "Please_use_--version-label",
-  "SolutionStackName": "64bit Amazon Linux 2016.03 v2.1.1 running Multi-container Docker 1.9.1 (Generic)",
+  "SolutionStackName": "64bit Amazon Linux 2016.09 v2.4.0 running Multi-container Docker 1.12.6 (Generic)",
   "OptionSettings": [
     {
       "Namespace": "aws:autoscaling:launchconfiguration",
